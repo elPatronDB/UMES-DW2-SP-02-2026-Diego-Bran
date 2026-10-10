@@ -1,0 +1,22 @@
+.circulo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 30px auto;
+  border: 4px solid #333;
+}
+
+.circulo.apagada {
+  background-color: gray;
+}
+
+.circulo.encendida {
+  background-color: yellow;
+}
+
+.lampara {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
